@@ -1,0 +1,9 @@
+{
+  "name": "quality-pilates",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Landing page Quality Pilates (HTML + CSS + JS puro, sem build)",
+  "scripts": {
+    "dev": "npx --yes serve . -l 3000"
+  }
+}

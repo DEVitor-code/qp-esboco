@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quality Pilates | Pilates Clássico em Bauru e Taquaritinga</title>
+  <meta name="description" content="Studio de Pilates Clássico há 16 anos em Bauru e Taquaritinga. Nota 5,0 no Google. Agende pelo WhatsApp e conheça o método.">
+  <meta name="theme-color" content="#EBE1D5">
+  <!-- TODO(deploy): remover o noindex quando o site final for publicado no domínio da cliente (esboço hospedado no GitHub Pages). -->
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- Open Graph.
+       TODO(deploy): trocar SEU-DOMINIO pelo domínio final da Vercel/cliente (og:image precisa ser URL absoluta). -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Quality Pilates">
+  <meta property="og:title" content="Quality Pilates | Pilates Clássico em Bauru e Taquaritinga">
+  <meta property="og:description" content="Studio de Pilates Clássico há 16 anos em Bauru e Taquaritinga. Nota 5,0 no Google. Agende pelo WhatsApp e conheça o método.">
+  <meta property="og:image" content="https://SEU-DOMINIO/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fontes (Google Fonts, latin, servidas localmente: sem round-trip extra, com preload real) -->
+  <link rel="preload" href="fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <!-- LCP: poster do hero -->
+  <link rel="preload" href="assets/hero-poster.jpg" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231F3A2E'/%3E%3Ctext x='16' y='23' font-family='serif' font-size='20' text-anchor='middle' fill='%23F6F0E6'%3EQ%3C/text%3E%3C/svg%3E">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["HealthClub", "SportsActivityLocation"],
+    "name": "Quality Pilates",
+    "description": "Studio de Pilates Clássico em Bauru e Taquaritinga, dirigido pela fisioterapeuta Niegy Arnoni.",
+    "telephone": "+55-14-98200-7583",
+    "sameAs": ["https://www.instagram.com/qualitypilatesqp/"],
+    "founder": { "@type": "Person", "name": "Niegy Arnoni" },
+    "areaServed": [
+      { "@type": "City", "name": "Bauru" },
+      { "@type": "City", "name": "Taquaritinga" }
+    ],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "132", "bestRating": "5" },
+    "department": [
+      {
+        "@type": ["HealthClub", "SportsActivityLocation"],
+        "name": "Quality Pilates Bauru",
+        "address": { "@type": "PostalAddress", "addressLocality": "Bauru", "addressRegion": "SP", "addressCountry": "BR" }
+      },
+      {
+        "@type": ["HealthClub", "SportsActivityLocation"],
+        "name": "Quality Pilates Taquaritinga",
+        "address": { "@type": "PostalAddress", "addressLocality": "Taquaritinga", "addressRegion": "SP", "addressCountry": "BR" }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip" href="#metodo">Ir para o conteúdo</a>
+
+  <!-- 0. HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <!-- TODO(logo): quando a cliente enviar o logo, trocar este wordmark (texto em Fraunces) pelo <img> do logo, mantendo width/height definidos. -->
+      <a class="wordmark" href="#topo" aria-label="Quality Pilates, início">Quality Pilates</a>
+      <a class="btn btn--sm" href="https://wa.me/5514982007583?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20conhecer%20o%20studio%20Quality%20Pilates." target="_blank" rel="noopener">Agende pelo WhatsApp</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. HERO COM VÍDEO EM SCROLL -->
+    <section class="hero" id="topo" aria-labelledby="hero-title">
+      <div class="hero__stage">
+        <div class="hero__media">
+          <video class="hero__video" muted playsinline preload="auto" width="1920" height="1072"
+                 poster="assets/hero-poster.jpg" aria-hidden="true" tabindex="-1" disablepictureinpicture>
+            <source src="assets/hero.mp4" type="video/mp4">
+            <source src="assets/hero.webm" type="video/webm">
+          </video>
+        </div>
+        <div class="hero__scrim" aria-hidden="true"></div>
+        <div class="hero__scrim-cap" aria-hidden="true"></div>
+
+        <div class="container hero__layer">
+          <div class="hero__intro" data-hero-intro>
+            <p class="eyebrow">Pilates Clássico em Bauru e Taquaritinga</p>
+            <h1 id="hero-title">Pilates Clássico com método e acompanhamento</h1>
+            <p class="lead">Um studio dirigido pela fisioterapeuta Niegy Arnoni, com o método de Joseph Pilates presente em cada aula.</p>
+            <a class="btn" href="https://wa.me/5514982007583?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20conhecer%20o%20studio%20Quality%20Pilates." target="_blank" rel="noopener">Agende pelo WhatsApp</a>
+          </div>
+
+          <div class="hero__bottom">
+            <p class="hero__hint" data-hero-hint aria-hidden="true"><span class="hero__hint-line"></span>Role para conhecer</p>
+            <!-- Legendas repetem fatos já presentes na seção de prova social, por isso ficam fora da árvore de acessibilidade. -->
+            <div class="hero__captions" aria-hidden="true">
+              <p class="hero__caption" data-caption>Pilates Clássico</p>
+              <p class="hero__caption" data-caption>16 anos em Bauru e Taquaritinga</p>
+              <p class="hero__caption" data-caption>Mais de 3 mil alunos atendidos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. O MÉTODO -->
+    <section class="section section--light" id="metodo" aria-labelledby="metodo-title">
+      <div class="container grid">
+        <div class="metodo__intro">
+          <p class="eyebrow" data-reveal>O método</p>
+          <h2 id="metodo-title" data-reveal>O método de Joseph Pilates, aplicado com rigor</h2>
+          <p class="body" data-reveal>O Pilates Clássico segue o repertório criado por Joseph Pilates: exercícios em ordem definida, feitos com precisão e atenção à respiração. Aqui, o método é conduzido de perto, aula a aula. Você aprende a perceber e a conduzir o próprio corpo.</p>
+        </div>
+
+        <ol class="metodo__list">
+          <li class="metodo__item" data-reveal>
+            <span class="metodo__num" aria-hidden="true">01</span>
+            <div>
+              <h3>Repertório clássico</h3>
+              <p class="body">Cada exercício tem sequência, objetivo e execução cuidadosa.</p>
+            </div>
+          </li>
+          <li class="metodo__item" data-reveal>
+            <span class="metodo__num" aria-hidden="true">02</span>
+            <div>
+              <h3>Respiração e controle</h3>
+              <p class="body">O movimento nasce do centro do corpo e acompanha a respiração.</p>
+            </div>
+          </li>
+          <li class="metodo__item" data-reveal>
+            <span class="metodo__num" aria-hidden="true">03</span>
+            <div>
+              <h3>Olhar de fisioterapeuta</h3>
+              <p class="body">A direção do studio é de uma fisioterapeuta, e isso aparece no cuidado com cada movimento.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 3. AS DUAS UNIDADES -->
+    <section class="section section--base" id="unidades" aria-labelledby="unidades-title">
+      <div class="container">
+        <div class="unidades__head">
+          <h2 id="unidades-title" data-reveal>Duas unidades, o mesmo método</h2>
+          <p class="body" data-reveal>Em Bauru ou em Taquaritinga, você encontra o mesmo Pilates Clássico e o mesmo cuidado com quem treina.</p>
+        </div>
+
+        <div class="grid unidades__grid">
+          <!-- Endereços: aguardando a cliente. Substituir o texto "[endereço a confirmar]" quando ela enviar. -->
+          <article class="unit unit--lg" data-reveal>
+            <h3 class="unit__city">Bauru</h3>
+            <p class="body">Nossa unidade em Bauru recebe quem quer começar no Pilates Clássico e quem já treina e busca mais precisão. Fale com a gente para conhecer o espaço.</p>
+            <!-- TODO(cliente): endereço da unidade de Bauru -->
+            <p class="unit__addr">[endereço a confirmar]</p>
+          </article>
+
+          <article class="unit unit--sm" data-reveal>
+            <h3 class="unit__city">Taquaritinga</h3>
+            <p class="body">Em Taquaritinga, o studio leva o mesmo método e o mesmo acolhimento para a cidade. Chame no WhatsApp e conheça a unidade.</p>
+            <!-- TODO(cliente): endereço da unidade de Taquaritinga -->
+            <p class="unit__addr">[endereço a confirmar]</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PROVA SOCIAL -->
+    <section class="section section--dark" id="historia" aria-labelledby="historia-title">
+      <div class="container">
+        <h2 id="historia-title" data-reveal>Uma história construída aula por aula</h2>
+
+        <ul class="proof">
+          <li class="proof__item" data-reveal>
+            <p class="proof__num"><span data-count="16" data-format="int">16</span> <span class="proof__unit">anos</span></p>
+            <p class="proof__label">de studio dedicado ao Pilates Clássico</p>
+          </li>
+          <li class="proof__item" data-reveal>
+            <p class="proof__num">+<span data-count="3000" data-format="int">3.000</span></p>
+            <p class="proof__label">alunos atendidos em 16 anos de studio</p>
+          </li>
+          <li class="proof__item" data-reveal>
+            <p class="proof__num"><span data-count="5" data-format="dec1">5,0</span></p>
+            <p class="proof__label">nota no Google, com 132 avaliações</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5. CHAMADA FINAL -->
+    <section class="section section--light" id="contato" aria-labelledby="contato-title">
+      <div class="container grid">
+        <div class="cta">
+          <h2 id="contato-title" data-reveal>Vamos conversar sobre o seu Pilates?</h2>
+          <p class="body" data-reveal>Chame no WhatsApp, conte o que você procura e combine o próximo passo com a nossa equipe.</p>
+          <a class="btn" data-reveal href="https://wa.me/5514982007583?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20conhecer%20o%20studio%20Quality%20Pilates." target="_blank" rel="noopener">Agende pelo WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 6. RODAPÉ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <!-- TODO(logo): trocar pelo logo quando existir -->
+        <p class="footer__word">Quality Pilates</p>
+        <p class="footer__text">Quality Pilates. Pilates Clássico em Bauru e Taquaritinga.</p>
+      </div>
+      <div class="footer__actions">
+        <a class="footer__link" href="https://www.instagram.com/qualitypilatesqp/" target="_blank" rel="noopener">@qualitypilatesqp</a>
+        <a class="btn btn--inverse" href="https://wa.me/5514982007583?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20conhecer%20o%20studio%20Quality%20Pilates." target="_blank" rel="noopener">Agende pelo WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
